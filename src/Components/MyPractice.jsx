@@ -19,7 +19,6 @@ const MyPractice = () => {
 
   return (
     <>
-      <h1>Card</h1>
       <div className="container">
         <div className="row">
           {manual.length &&
