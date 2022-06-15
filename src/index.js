@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Counters from './Components/Counters'; 
+import Mypractice from './Components/MyPractice'
+import Movies from './Components/Movies'
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.css' 
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Mypractice/>
+    <Counters />
+    {/* <App/> */}
+    <Movies/> 
+    
   </React.StrictMode>
 );
 
